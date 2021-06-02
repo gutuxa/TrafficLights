@@ -15,6 +15,7 @@ struct WhiteButton: View {
         Button(action: action, label: {
             Text(title)
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .foregroundColor(.black)
         })
             .frame(width: 150)
