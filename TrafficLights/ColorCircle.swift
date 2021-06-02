@@ -17,7 +17,7 @@ struct ColorCircle: View {
             .padding(.bottom, 8)
             .foregroundColor(color)
             .opacity(opacity)
-            .shadow(color: color, radius: 8)
+            .shadow(color: color.opacity(0.7), radius: 8)
     }
 }
 
