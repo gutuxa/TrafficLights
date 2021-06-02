@@ -13,12 +13,10 @@ enum Lights: CaseIterable {
 
 extension Lights {
     var value: Color {
-        get {
-            switch self {
-            case .red: return .red
-            case .yellow: return .yellow
-            case .green: return .green
-            }
+        switch self {
+        case .red: return .red
+        case .yellow: return .yellow
+        case .green: return .green
         }
     }
 }
